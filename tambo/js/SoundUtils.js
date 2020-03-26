@@ -35,6 +35,8 @@ const SoundUtils = {
     for ( let channelNumber = 0; channelNumber < audioBuffer.numberOfChannels; channelNumber++ ) {
 
       // initialize some variables that will be used to analyze the data
+      console.log(audioBuffer);
+      console.log(channelNumber);
       const soundData = audioBuffer.getChannelData( channelNumber );
 
       // find where the sound first exceeds the threshold
