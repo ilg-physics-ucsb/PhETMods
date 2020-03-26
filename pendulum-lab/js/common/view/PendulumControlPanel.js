@@ -15,11 +15,14 @@ import pendulumLabStrings from '../../pendulum-lab-strings.js';
 import pendulumLab from '../../pendulumLab.js';
 import PendulumLabConstants from '../PendulumLabConstants.js';
 import PendulumNumberControl from './PendulumNumberControl.js';
+import BooleanProperty from '../../../../axon/js/BooleanProperty.js';
 
 const kilogramsPatternString = pendulumLabStrings.kilogramsPattern;
 const lengthString = pendulumLabStrings.length;
 const massString = pendulumLabStrings.mass;
 const metersPatternString = pendulumLabStrings.metersPattern;
+const shortString = pendulumLabStrings.short;
+const longString = pendulumLabStrings.long;
 
 /**
  * @constructor
@@ -48,6 +51,14 @@ function PendulumControlPanel( pendula, numberOfPendulaProperty ) {
       pendulumNumber: pendulumNumberString
     } );
 
+    //Added by Zak. This removes the display of length so students have to measure it.
+    const lengthOptions = {
+      hasReadoutProperty: new BooleanProperty(0),
+      minTick: new Text( shortString, { font: PendulumLabConstants.TICK_FONT, maxWidth: 50 } ).textContent,
+      maxTick: new Text( longString, { font: PendulumLabConstants.TICK_FONT, maxWidth: 50 } ).textContent
+    };
+
+
     //TODO #210 replace '{0}' with SunConstants.VALUE_NAMED_PLACEHOLDER
     const lengthPattern = StringUtils.fillIn( metersPatternString, { meters: '{0}' } );
     const massPattern = StringUtils.fillIn( kilogramsPatternString, { kilograms: '{0}' } );
@@ -56,7 +67,7 @@ function PendulumControlPanel( pendula, numberOfPendulaProperty ) {
       spacing: 14,
       align: 'left',
       children: [
-        new PendulumNumberControl( lengthTitle, pendulum.lengthProperty, pendulum.lengthRange, lengthPattern, pendulum.color ),
+        new PendulumNumberControl( lengthTitle, pendulum.lengthProperty, pendulum.lengthRange, lengthPattern, pendulum.color, lengthOptions ),
         new PendulumNumberControl( massTitle, pendulum.massProperty, pendulum.massRange, massPattern, pendulum.color )
       ]
     } );

@@ -23,6 +23,9 @@
   "length": {
     "value": "Length {{pendulumNumber}}"
   },
+  "long": {
+    "value": "Long"
+  },
   "lots": {
     "value": "Lots"
   },
@@ -76,6 +79,9 @@
   },
   "rulerUnits": {
     "value": "cm"
+  },
+  "short": {
+    "value": "Short"
   },
   "slowMotion": {
     "value": "Slow"

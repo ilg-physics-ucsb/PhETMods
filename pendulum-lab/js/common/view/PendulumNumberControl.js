@@ -15,6 +15,7 @@ import Text from '../../../../scenery/js/nodes/Text.js';
 import Color from '../../../../scenery/js/util/Color.js';
 import pendulumLab from '../../pendulumLab.js';
 import PendulumLabConstants from '../PendulumLabConstants.js';
+import BooleanProperty from '../../../../axon/js/BooleanProperty.js';
 
 /**
  * @constructor
@@ -34,6 +35,8 @@ function PendulumNumberControl( title, property, range, pattern, color, options 
     sliderPadding: 0,
     createBottomContent: null
   }, options );
+
+  console.log(options);
 
   const numberControlOptions = merge( {
     delta: 0.01,

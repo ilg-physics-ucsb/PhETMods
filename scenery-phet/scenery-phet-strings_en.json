@@ -1,0 +1,349 @@
+{
+  "scenery-phet.title": {
+    "value": "scenery-phet demo"
+  },
+  "WavelengthSlider.pattern_0wavelength_1units": {
+    "value": "{0} {1}"
+  },
+  "frequencyUnitsPattern": {
+    "value": "{{frequency}} THz"
+  },
+  "units_nm": {
+    "value": "nm"
+  },
+  "shortCircuit": {
+    "value": "Short circuit!"
+  },
+  "heat": {
+    "value": "Heat"
+  },
+  "cool": {
+    "value": "Cool"
+  },
+  "key.tab": {
+    "value": "Tab"
+  },
+  "key.shift": {
+    "value": "Shift"
+  },
+  "key.capsLock": {
+    "value": "Caps Lock"
+  },
+  "key.enter": {
+    "value": "Enter"
+  },
+  "key.space": {
+    "value": "Space"
+  },
+  "key.esc": {
+    "value": "Esc"
+  },
+  "key.fn": {
+    "value": "Fn"
+  },
+  "key.pageUp": {
+    "value": "Pg Up"
+  },
+  "key.pageDown": {
+    "value": "Pg Dn"
+  },
+  "key.home": {
+    "value": "Home"
+  },
+  "key.end": {
+    "value": "End"
+  },
+  "key.toGrabOrRelease": {
+    "value": "to <b>Grab</b> or <b>Release</b>"
+  },
+  "webglWarning.title": {
+    "value": "Running with low graphics quality"
+  },
+  "webglWarning.body": {
+    "value": "WebGL is not enabled or not available. Click to learn more."
+  },
+  "webglWarning.contextLossFailure": {
+    "value": "Sorry, a graphics error has occurred."
+  },
+  "webglWarning.contextLossReload": {
+    "value": "Reload"
+  },
+  "webglWarning.ie11StencilBody": {
+    "value": "Update Internet Explorer by installing recommended Windows Update patches."
+  },
+  "keyboardHelpDialog.sliderControls": {
+    "value": "Slider Controls"
+  },
+  "keyboardHelpDialog.adjustSlider": {
+    "value": "Adjust slider"
+  },
+  "keyboardHelpDialog.adjustInSmallerSteps": {
+    "value": "Adjust in smaller steps"
+  },
+  "keyboardHelpDialog.adjustInLargerSteps": {
+    "value": "Adjust in larger steps"
+  },
+  "keyboardHelpDialog.jumpToMinimum": {
+    "value": "Jump to minimum"
+  },
+  "keyboardHelpDialog.jumpToMaximum": {
+    "value": "Jump to maximum"
+  },
+  "keyboardHelpDialog.generalNavigation": {
+    "value": "General Navigation"
+  },
+  "keyboardHelpDialog.basicActions": {
+    "value": "Basic Actions"
+  },
+  "keyboardHelpDialog.moveToNextItem": {
+    "value": "Move to next item"
+  },
+  "keyboardHelpDialog.moveToPreviousItem": {
+    "value": "Move to previous item"
+  },
+  "keyboardHelpDialog.moveToNextItemOrGroup": {
+    "value": "Move to next item or group"
+  },
+  "keyboardHelpDialog.moveToPreviousItemOrGroup": {
+    "value": "Move to previous item or group"
+  },
+  "keyboardHelpDialog.pressButtons": {
+    "value": "Press buttons"
+  },
+  "keyboardHelpDialog.moveBetweenItemsInAGroup": {
+    "value": "Move between items in a group"
+  },
+  "keyboardHelpDialog.exitADialog": {
+    "value": "Exit a dialog"
+  },
+  "keyboardHelpDialog.toggleCheckboxes": {
+    "value": "Toggle checkboxes"
+  },
+  "keyboardHelpDialog.or": {
+    "value": "or"
+  },
+  "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+    "value": "Grab or Release {{thing}}"
+  },
+  "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+    "value": "Grab or release {{thing}}"
+  },
+  "speed.normal": {
+    "value": "Normal"
+  },
+  "speed.slow": {
+    "value": "Slow"
+  },
+  "speed.fast": {
+    "value": "Fast"
+  },
+  "symbol.ohms": {
+    "value": "\u2126"
+  },
+  "symbol.resistivity": {
+    "value": "\u03C1"
+  },
+  "comboBoxDisplay.valueUnits": {
+    "value": "{{value}} {{units}}"
+  },
+  "wavelengthNMValuePattern": {
+    "value": "{0} nm"
+  },
+  "measuringTapeReadoutPattern": {
+    "value": "{{distance}} {{units}}"
+  },
+  "wavelength": {
+    "value": "Wavelength"
+  },
+  "rulerCapitalized": {
+    "value": "Ruler"
+  },
+  "ruler": {
+    "value": "Ruler"
+  },
+  "a11y": {
+    "simSection": {
+      "screenSummaryMultiScreenIntro": {
+        "value": "This is an interactive sim. It changes as you play with it. Each screen has a Play Area and Control Area."
+      },
+      "screenSummarySingleScreenIntroPattern": {
+        "value": "{{sim}} is an interactive sim. It changes as you play with it. It has a Play Area and a Control Area."
+      },
+      "screenSummaryKeyboardShortcutsHint": {
+        "value": "If needed, check out keyboard shortcuts under Sim Resources."
+      },
+      "playArea": {
+        "value": "Play Area"
+      },
+      "controlArea": {
+        "value": "Control Area"
+      }
+    },
+    "resetAll": {
+      "label": {
+        "value": "Reset All"
+      },
+      "alert": {
+        "value": "Sim screen restarted. Everything reset."
+      }
+    },
+    "soundToggle": {
+      "label": {
+        "value": "Mute Sound"
+      },
+      "simSoundOn": {
+        "value": "Sim sound on."
+      },
+      "simSoundOff": {
+        "value": "Sim sound off."
+      }
+    },
+    "keyboardHelpDialog": {
+      "general": {
+        "tabDescription": {
+          "value": "Move to next item with Tab key."
+        },
+        "shiftTabDescription": {
+          "value": "Move to previous item with Shift plus Tab key."
+        },
+        "tabGroupDescription": {
+          "value": "Move to next item or group with Tab key."
+        },
+        "shiftTabGroupDescription": {
+          "value": "Move to previous item or group with Shift plus Tab key."
+        },
+        "pressButtonsDescription": {
+          "value": "Press buttons with Space key."
+        },
+        "groupNavigationDescription": {
+          "value": "Move between items in a group with Left and Right arrow keys or Up and Down Arrow keys."
+        },
+        "exitDialogDescription": {
+          "value": "Exit a dialog with Escape key."
+        },
+        "toggleCheckboxesDescription": {
+          "value": "Toggle checkboxes with Space key."
+        }
+      },
+      "slider": {
+        "adjustDefaultStepsString": {
+          "value": "Adjust slider with Left and Right arrow keys, or Up and Down arrow keys."
+        },
+        "adjustSmallerStepsString": {
+          "value": "Adjust in smaller steps with Shift plus Left or Right arrow key, or Shift plus Up or Down arrow key."
+        },
+        "adjustLargerStepsString": {
+          "value": "Adjust in larger steps with Page Up or Page Down key."
+        },
+        "jumpToHomeString": {
+          "value": "Jump to minimum with Home key."
+        },
+        "jumpToEndString": {
+          "value": "Jump to maximum with End key."
+        }
+      },
+      "grabOrReleaseDescriptionPattern": {
+        "value": "Grab or release {{thing}} with Space or Enter keys."
+      }
+    },
+    "playPauseButton": {
+      "play": {
+        "value": "Play"
+      },
+      "pause": {
+        "value": "Pause"
+      }
+    },
+    "stepButton": {
+      "stepForward": {
+        "value": "Step Forward"
+      },
+      "playingDescription": {
+        "value": "Pause sim to step forward little by little."
+      },
+      "pausedDescription": {
+        "value": "Play sim to resume chosen speed."
+      }
+    },
+    "timeControlNode": {
+      "simSpeedDescription": {
+        "value": "For closer observations Play sim on slow speed."
+      },
+      "label": {
+        "value": "Timing Controls"
+      },
+      "simSpeeds": {
+        "value": "Sim Speeds"
+      },
+      "playPauseStepButtons": {
+        "playingDescription": {
+          "value": "Pause sim to step forward little by little."
+        },
+        "playingWithSpeedDescription": {
+          "value": "Pause sim to step forward little by little, or keep playing sim at chosen sim speed."
+        },
+        "pausedDescription": {
+          "value": "Step forward little by little."
+        },
+        "pausedWithSpeedDescription": {
+          "value": "Step forward little by little, or play sim at chosen sim speed."
+        }
+      }
+    },
+    "movementDescriber": {
+      "down": {
+        "value": "down"
+      },
+      "left": {
+        "value": "left"
+      },
+      "right": {
+        "value": "right"
+      },
+      "up": {
+        "value": "up"
+      },
+      "upAndToTheRight": {
+        "value": "up and to the right"
+      },
+      "upAndToTheLeft": {
+        "value": "up and to the left"
+      },
+      "downAndToTheRight": {
+        "value": "down and to the right"
+      },
+      "downAndToTheLeft": {
+        "value": "down and to the left"
+      },
+      "leftBorderAlert": {
+        "value": "At left edge"
+      },
+      "rightBorderAlert": {
+        "value": "At right edge"
+      },
+      "topBorderAlert": {
+        "value": "At top"
+      },
+      "bottomBorderAlert": {
+        "value": "At bottom"
+      }
+    },
+    "grabDrag": {
+      "grabPattern": {
+        "value": "Grab {{objectToGrab}}"
+      },
+      "movable": {
+        "value": "movable"
+      },
+      "defaultObjectToGrab": {
+        "value": "Object"
+      },
+      "released": {
+        "value": "Released."
+      },
+      "gestureHelpTextPattern": {
+        "value": "Double tap and hold to drag {{objectToGrab}}. Lift finger to release."
+      }
+    }
+  }
+}
