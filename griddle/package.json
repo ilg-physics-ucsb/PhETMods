@@ -1,0 +1,24 @@
+{
+  "name": "griddle",
+  "version": "0.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phetsims/griddle.git"
+  },
+  "devDependencies": {
+    "grunt": "~1.0.0"
+  },
+  "phet": {
+    "requirejsNamespace": "GRIDDLE",
+    "runnable": true,
+    "generatedUnitTests": true,
+    "supportedBrands": [
+      "phet",
+      "adapted-from-phet"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "../chipper/eslint/sim_eslintrc.js"
+  }
+}
