@@ -73,7 +73,7 @@ function findSoundStartIndex( soundData, length, threshold ) {
   let dataIndex;
   let found = false;
   console.log(soundData);
-  console.log(audioBuffer);
+  console.log(AudioBuffer);
   console.log(channelNumber);
   for ( dataIndex = 0; dataIndex < length - 1 && !found; dataIndex++ ) {
     if ( soundData[ dataIndex ] > threshold && soundData[ dataIndex + 1 ] > soundData[ dataIndex ] ) {
