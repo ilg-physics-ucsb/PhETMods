@@ -1,0 +1,201 @@
+{
+  "key.enter": {
+    "value": "Giriş",
+    "history": [
+      {
+        "userId": 707975,
+        "timestamp": 1573071478274,
+        "oldValue": "",
+        "newValue": "Giriş",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+    "value": "{{thing}} Tut veya Bırak",
+    "history": [
+      {
+        "userId": 707975,
+        "timestamp": 1573071478274,
+        "oldValue": "",
+        "newValue": "{{thing}} Tut veya Bırak",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+    "value": "{{thing}} Tut veya Bırak",
+    "history": [
+      {
+        "userId": 707975,
+        "timestamp": 1573071478274,
+        "oldValue": "",
+        "newValue": "{{thing}} Tut veya Bırak",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.or": {
+    "value": "ya da",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1556607334431,
+        "oldValue": "",
+        "newValue": "yada",
+        "explanation": null
+      },
+      {
+        "userId": 707975,
+        "timestamp": 1573071478274,
+        "oldValue": "yada",
+        "newValue": "ya da",
+        "explanation": null
+      }
+    ]
+  },
+  "key.pageDown": {
+    "value": "Aşağı",
+    "history": [
+      {
+        "userId": 707975,
+        "timestamp": 1573071478274,
+        "oldValue": "",
+        "newValue": "Aşağı",
+        "explanation": null
+      }
+    ]
+  },
+  "key.pageUp": {
+    "value": "Yukarı",
+    "history": [
+      {
+        "userId": 707975,
+        "timestamp": 1573071478274,
+        "oldValue": "",
+        "newValue": "Yukarı",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.title": {
+    "value": "Düşük grafik kalitesinde çalışıyor",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1579971522124,
+        "oldValue": "",
+        "newValue": "Düşük grafik kalitesinde çalışıyor",
+        "explanation": null
+      }
+    ]
+  },
+  "key.shift": {
+    "value": "Değiştirme",
+    "history": [
+      {
+        "userId": 707975,
+        "timestamp": 1573071478274,
+        "oldValue": "",
+        "newValue": "Değiştirme",
+        "explanation": null
+      }
+    ]
+  },
+  "key.space": {
+    "value": "Boşluk",
+    "history": [
+      {
+        "userId": 707975,
+        "timestamp": 1573071478274,
+        "oldValue": "",
+        "newValue": "Boşluk",
+        "explanation": null
+      }
+    ]
+  },
+  "key.tab": {
+    "value": "Sekme",
+    "history": [
+      {
+        "userId": 707975,
+        "timestamp": 1573071478274,
+        "oldValue": "",
+        "newValue": "Sekme",
+        "explanation": null
+      }
+    ]
+  },
+  "speed.normal": {
+    "value": "Normal",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1579813939678,
+        "oldValue": "",
+        "newValue": "Normal",
+        "explanation": null
+      }
+    ]
+  },
+  "speed.slow": {
+    "value": "Yavaş",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1579813939678,
+        "oldValue": "",
+        "newValue": "Yavaş",
+        "explanation": null
+      }
+    ]
+  },
+  "wavelength": {
+    "value": "Dalga Boyu",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1579789101439,
+        "oldValue": "",
+        "newValue": "Dalga Boyu",
+        "explanation": null
+      }
+    ]
+  },
+  "cool": {
+    "value": "Soğut",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1556607334431,
+        "oldValue": "",
+        "newValue": "Soğut",
+        "explanation": null
+      }
+    ]
+  },
+  "heat": {
+    "value": "Isıt",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1556607334431,
+        "oldValue": "",
+        "newValue": "Isıt",
+        "explanation": null
+      }
+    ]
+  },
+  "shortCircuit": {
+    "value": "Kısa devre!",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1481895116375,
+        "oldValue": "",
+        "newValue": "Kısa devre!",
+        "explanation": null
+      }
+    ]
+  }
+}
