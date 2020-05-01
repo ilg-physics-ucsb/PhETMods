@@ -17,6 +17,9 @@ import DiffractionNumberControl from './DiffractionNumberControl.js';
 const heightString = waveInterferenceStrings.height;
 const mmValueString = waveInterferenceStrings.mmValue;
 const widthString = waveInterferenceStrings.width;
+const separationString = waveInterferenceStrings.separation;
+console.log(heightString);
+console.log(separationString);
 
 class RectangleSceneControlPanel extends WaveInterferencePanel {
 
@@ -40,6 +43,16 @@ class RectangleSceneControlPanel extends WaveInterferencePanel {
           }
         } ),
         new DiffractionNumberControl( heightString, rectangleScene.heightProperty, {
+          delta: 10 * 1E-3,
+          numberDisplayOptions: {
+            valuePattern: mmValueString,
+            decimalPlaces: 2
+          },
+          sliderOptions: {
+            constrainValue: value => Utils.roundToInterval( value, 20E-3 )
+          }
+        } ),
+        new DiffractionNumberControl( separationString, rectangleScene.separationProperty, {
           delta: 10 * 1E-3,
           numberDisplayOptions: {
             valuePattern: mmValueString,

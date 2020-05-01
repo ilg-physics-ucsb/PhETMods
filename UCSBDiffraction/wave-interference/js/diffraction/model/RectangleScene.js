@@ -25,13 +25,20 @@ class RectangleScene extends DiffractionScene {
       range: new Range( 40E-3, 2000E-3 ),
       units: 'mm'
     } );
-    super( [ widthProperty, heightProperty ] );
+    const separationProperty = new NumberProperty( 100E-3, {
+      range: new Range( 1E-3, 2000E-3 ),
+      units: 'mm'
+    } );
+    super( [ widthProperty, heightProperty, separationProperty ] );
 
     // @public {NumberProperty} - in mm
     this.widthProperty = widthProperty;
 
     // @public {NumberProperty} - in mm
     this.heightProperty = heightProperty;
+
+    // @public {NumberProperty} - in mm
+    this.separationProperty = separationProperty;
   }
 
   /**
@@ -44,9 +51,16 @@ class RectangleScene extends DiffractionScene {
     const modelToMatrixScale = WaveInterferenceConstants.DIFFRACTION_MODEL_TO_MATRIX_SCALE;
     const columnRadius = Utils.roundSymmetric( this.widthProperty.value * modelToMatrixScale / 2 );
     const rowRadius = Utils.roundSymmetric( this.heightProperty.value * modelToMatrixScale / 2 );
+    const separation = Utils.roundSymmetric( this.separationProperty.value * modelToMatrixScale / 2);
 
     context.fillRect(
-      WaveInterferenceConstants.DIFFRACTION_MATRIX_DIMENSION / 2 - columnRadius,
+      WaveInterferenceConstants.DIFFRACTION_MATRIX_DIMENSION / 2 - columnRadius - separation,
+      WaveInterferenceConstants.DIFFRACTION_MATRIX_DIMENSION / 2 - rowRadius,
+      columnRadius * 2, rowRadius * 2
+    );
+
+    context.fillRect(
+      WaveInterferenceConstants.DIFFRACTION_MATRIX_DIMENSION / 2 - columnRadius + separation,
       WaveInterferenceConstants.DIFFRACTION_MATRIX_DIMENSION / 2 - rowRadius,
       columnRadius * 2, rowRadius * 2
     );
